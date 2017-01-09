@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 .home{
 	background-image: url('http://i.imgur.com/bWnBMeG.jpg');
 	background-repeat: no-repeat;
@@ -34,41 +34,4 @@
 	background-color: white;
 	min-height:100%;
 	color: white;
-=======
-.home{
-	background-image: url('http://i.imgur.com/bWnBMeG.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-color: white;
-	min-height:100%;
-	color: white;
-	
-}
-
-.awards {
-	background-image: url('http://i.imgur.com/bWnBMeG.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-color: white;
-	min-height:100%;
-	color: white;
-}
-
-.projects {
-	background-image: url('http://il9.picdn.net/shutterstock/videos/5620931/thumb/4.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-color: white;
-	min-height:100%;
-	color: white;
-}
-
-.work {
-	background-image: url('http://i.imgur.com/bWnBMeG.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-color: white;
-	min-height:100%;
-	color: white;
->>>>>>> 087f916a0597c4e24ad318e9176ab6430eb74c0f
 }
