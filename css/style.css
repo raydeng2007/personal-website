@@ -36,8 +36,59 @@
 	color: white;
 }
 h1 {
-	font-size: 45px;
+
+	font-size: 47px;
 	font-family: 'Kanit', sans-serif;
-	background-color: grey;
 	text-align: center;
+	width: 684px;
+	margin: 0 auto;
+	background-color: #AFAFAF;
+	text-color: white;
+
 }
+.wrapper{
+	width: 700px;
+	height:200px;
+	margin: 0 auto;
+	background-color: white;
+	margin-top: 100px;
+}
+.nav{
+	height: 40px;
+	width: 684px;
+	margin: 0 auto; 
+	background-color: #AFAFAF;
+	margin-top: 26px;
+
+	
+}
+
+.nav ul {
+	margin: 0 ;
+	padding: 0;
+}
+
+.nav ul li {
+	list-style:none;
+}
+
+.nav ul li a {
+	text-decoration: none; 
+	float: left;
+	padding: 20px 20px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
