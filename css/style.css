@@ -1,4 +1,15 @@
 
+
+
+.header-content{
+	padding-bottom: 40px;
+}
+
+.header-sub{
+	text-align: center;
+}
+
+
 .home{
 	background-image: url('http://i.imgur.com/bWnBMeG.jpg');
 	background-repeat: no-repeat;
@@ -8,6 +19,23 @@
 	color: white;
 	
 }
+
+a:link, a:visited {
+    background-color: #AFAFAF;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+a:hover, a:active {
+    background-color: #89F7F0;
+}
+
+	
+
 
 .awards {
 	background-image: url('http://i.imgur.com/bWnBMeG.jpg');
@@ -42,7 +70,7 @@ h1 {
 	text-align: center;
 	width: 684px;
 	margin: 0 auto;
-	background-color: #AFAFAF;
+	background-color: none;
 	text-color: white;
 
 }
@@ -50,17 +78,28 @@ h1 {
 	width: 700px;
 	height:200px;
 	margin: 0 auto;
-	background-color: white;
+
 	margin-top: 100px;
 }
+
+
 .nav{
 	height: 40px;
 	width: 684px;
 	margin: 0 auto; 
-	background-color: #AFAFAF;
-	margin-top: 26px;
+	background-color: none;
+
+	text-align: center;
 
 	
+}
+
+.aboutme {
+	width: 684px;
+	margin: 0 auto; 
+	background-color: none;
+
+	text-align: center;
 }
 
 .nav ul {
@@ -70,12 +109,14 @@ h1 {
 
 .nav ul li {
 	list-style:none;
+	padding-left: 79px;
 }
 
 .nav ul li a {
 	text-decoration: none; 
 	float: left;
-	padding: 20px 20px;
+	padding: 20px 20px 20px 20px;
+	font-size: 19px;
 	
 }
 
