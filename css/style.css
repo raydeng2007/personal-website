@@ -3,10 +3,13 @@
 
 .header-content{
 	padding-bottom: 40px;
+	font-family: 'Noto Sans', sans-serif;
 }
 
 .header-sub{
 	text-align: center;
+	font-size: 29px;
+	font-family: 'Fira Sans Condensed', sans-serif;
 }
 
 
@@ -17,6 +20,7 @@
 	background-color: white;
 	min-height:100%;
 	color: white;
+	font-family: 'Noto Sans', sans-serif;
 	
 }
 
@@ -80,46 +84,56 @@ h1 {
 	margin: 0 auto;
 
 	margin-top: 100px;
+	font-size:17px;
 }
 
 
 .nav{
-	height: 40px;
-	width: 684px;
+	height: 50px;
+	white-space: nowrap;
 	margin: 0 auto; 
 	background-color: none;
-
 	text-align: center;
+	padding-left:59px;
 
-	
 }
 
 .aboutme {
 	width: 684px;
 	margin: 0 auto; 
-	background-color: none;
-
+	background-color:none;
 	text-align: center;
 }
 
-.nav ul {
-	margin: 0 ;
-	padding: 0;
-}
-
-.nav ul li {
-	list-style:none;
-	padding-left: 79px;
-}
-
-.nav ul li a {
-	text-decoration: none; 
-	float: left;
-	padding: 20px 20px 20px 20px;
-	font-size: 19px;
+.aboutme p {
+	width: 684px;
+	margin: 0 auto;
+	background-color: white;
+	padding-left: 50px;
+	color: black;
+	text-align: left;
 	
 }
 
+.nav ul {
+	list-style-type: none;
+	margin: 0 ;
+	padding: 0;
+}
+.nav ul a{
+	font-size:17px;
+}
+
+li {
+	float: left;
+}
+
+.footer-wrapper {
+	background-color: white;
+	height: 100px;
+	width: 684px;
+	margin: 0 auto;	
+}
 
 
 
