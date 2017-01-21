@@ -22,6 +22,7 @@
 	color: white;
 	font-family: 'Noto Sans', sans-serif;
 	
+	
 }
 
 a:link, a:visited {
@@ -108,10 +109,12 @@ h1 {
 .aboutme p {
 	width: 684px;
 	margin: 0 auto;
-	background-color: white;
+	background-color: none;
 	padding-left: 50px;
 	color: black;
 	text-align: left;
+	font-family: 'Raleway', sans-serif;
+	font-size: 27px;
 	
 }
 
@@ -129,13 +132,19 @@ li {
 }
 
 .footer-wrapper {
-	background-color: white;
+	background-color: none;
 	height: 100px;
 	width: 684px;
 	margin: 0 auto;	
+	
 }
 
-
+.footer-wrapper ul {
+	list-style-type: none;
+	margin-left: 65px;
+	background-color: none;
+}
+<!----for non-indexpage-------!>
 
 
 
