@@ -1,3 +1,32 @@
+header{
+	height: 200px;
+	background-image: url('https://i.stack.imgur.com/08Nj1.jpg');
+	font-family: 'Dosis', sans-serif;
+
+}
+body{
+	font-family: 'Dosis', sans-serif;
+	width: 80%;
+	margin: 0 auto;
+	background-color:#4286f4;
+}
+
+banner{
+	margin: 0 auto;
+}
+
+media-left{
+	float: left;
+}
+
+body{
+	background-color:#afbdd3;
+}
+
+#awards {
+	background-color: #3a85ff;
+}
+
 #centeredmenu {
    float:left;
    width:100%;
@@ -44,6 +73,10 @@
    background:#000;
    font-weight:bold;
 }
+
+
+
+
 
 
 

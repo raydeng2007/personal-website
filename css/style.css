@@ -3,13 +3,13 @@
 
 .header-content{
 	padding-bottom: 40px;
-	font-family: 'Noto Sans', sans-serif;
+	font-family: 'Dosis', sans-serif;
 }
 
 .header-sub{
 	text-align: center;
 	font-size: 29px;
-	font-family: 'Fira Sans Condensed', sans-serif;
+	font-family: 'Dosis', sans-serif;
 }
 
 
@@ -19,8 +19,8 @@
 	background-size: cover;
 	background-color: white;
 	min-height:100%;
-	color: white;
-	font-family: 'Noto Sans', sans-serif;
+	color: black;
+	font-family: 'Dosis', sans-serif;
 	
 	
 }
@@ -71,19 +71,18 @@ a:hover, a:active {
 h1 {
 
 	font-size: 47px;
-	font-family: 'Kanit', sans-serif;
+	font-family: 'Dosis', sans-serif;
 	text-align: center;
 	width: 684px;
 	margin: 0 auto;
 	background-color: none;
-	text-color: white;
+	text-color: black;
 
 }
 .wrapper{
 	width: 700px;
 	height:200px;
 	margin: 0 auto;
-
 	margin-top: 100px;
 	font-size:17px;
 }
@@ -109,11 +108,11 @@ h1 {
 .aboutme p {
 	width: 684px;
 	margin: 0 auto;
-	background-color: none;
+	background-color: #abc7f4;
 	padding-left: 50px;
 	color: black;
 	text-align: left;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Dosis', sans-serif;
 	font-size: 27px;
 	
 }
@@ -141,7 +140,7 @@ li {
 
 .footer-wrapper ul {
 	list-style-type: none;
-	margin-left: 65px;
+	margin-left: 50px;
 	background-color: none;
 }
 <!----for non-indexpage-------!>
