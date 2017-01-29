@@ -80,6 +80,46 @@ body{
    font-weight:bold;
 }
 
+.footer-wrapper {
+	background-color: none;
+	height: 100px;
+	width: 684px;
+	margin: 0 auto;	
+	
+}
+
+.footer-wrapper ul {
+	list-style-type: none;
+	margin-left: 50px;
+	background-color: none;
+}
+
+.nav ul {
+	list-style-type: none;
+	margin: 0 ;
+	padding: 0;
+}
+.nav ul a{
+	font-size:17px;
+}
+
+li {
+	float: left;
+}
+a:link, a:visited {
+    background-color: #AFAFAF;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+a:hover, a:active {
+    background-color: #89F7F0;
+}
+
 
 
 

@@ -1,5 +1,4 @@
 
-
 $(document).ready(function() {
     setInterval ('cursorAnimation()', 820);
 });
