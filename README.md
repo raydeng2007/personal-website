@@ -1,2 +1,2 @@
 # personal-website
-Experiment of trying to create my personal website using HTML and CSS
+Experiment of trying to create my personal website using HTML CSS and basic javascript. 
