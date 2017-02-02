@@ -5,7 +5,7 @@ header{
 
 }
 body{
-	font-family: 'Dosis', sans-serif;
+	font-family: 'Sansita', sans-serif;
 	width: 80%;
 	margin: 0 auto;
 	background-color:#4286f4;
@@ -31,6 +31,16 @@ body{
 }
 #awards {
 	background-color: #3a85ff;
+}
+
+#coop {
+	background-color: #54db48;
+	width: 100%;
+}
+
+#child {
+	display: inline-block;
+	margin-left: 100px;
 }
 
 #centeredmenu {
@@ -103,7 +113,7 @@ body{
 	font-size:17px;
 }
 
-li {
+footer li {
 	float: left;
 }
 a:link, a:visited {
