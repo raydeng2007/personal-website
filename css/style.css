@@ -49,6 +49,7 @@ a:hover, a:active {
 	background-color: white;
 	min-height:100%;
 	color: white;
+	line-height:35px; 
 }
 
 .projects {

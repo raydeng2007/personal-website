@@ -28,14 +28,33 @@ body{
 
 #physics{
 	background-color:#6fe7fc;
+	line-height:35px; 
+	
+}
+#physicschild{
+	margin-left: 300px;
 }
 #awards {
-	background-color: #3a85ff;
+	background-color: white;
+	line-height:35px; 
 }
 
 #coop {
 	background-color: #54db48;
 	width: 100%;
+	line-height:35px; 
+}
+
+#terrahinc{
+	margin-left: 330px;
+	
+	
+}
+
+#startups{
+	background-color: white;
+	line-height:35px; 
+	
 }
 
 #child {
