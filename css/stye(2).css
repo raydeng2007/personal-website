@@ -46,21 +46,29 @@ body{
 }
 
 #terrahinc{
-	margin-left: 330px;
-	
-	
+	margin-left: 330px;	
 }
 
 #startups{
-	background-color: white;
 	line-height:35px; 
-	
+    background-color:white;	
 }
 
 #child {
 	display: inline-block;
 	margin-left: 100px;
 }
+
+#upcoming {
+	line-height:35px; 
+	background-color:#efdf4f;
+}
+
+#current {
+	line-height:35px; 
+	background-color:#ef4faa;
+}
+
 
 #centeredmenu {
    float:left;
