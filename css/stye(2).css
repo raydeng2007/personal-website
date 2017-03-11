@@ -23,11 +23,11 @@ body{
 	background-color:#afbdd3;
 }
 #waterloo{
-	background-color:white;
+	background-color:#abc7f4;
 }
 
 #physics{
-	background-color:#6fe7fc;
+	background-color:#abc7f4;
 	line-height:35px; 
 	
 }
@@ -35,12 +35,12 @@ body{
 	margin-left: 300px;
 }
 #awards {
-	background-color: white;
+	background-color: #abc7f4;
 	line-height:35px; 
 }
 
 #coop {
-	background-color: #54db48;
+	background-color: #abc7f4;
 	width: 100%;
 	line-height:35px; 
 }
@@ -51,7 +51,7 @@ body{
 
 #startups{
 	line-height:35px; 
-    background-color:white;	
+    background-color:#abc7f4;	
 }
 
 #child {
@@ -61,12 +61,12 @@ body{
 
 #upcoming {
 	line-height:35px; 
-	background-color:#efdf4f;
+	background-color:#abc7f4;
 }
 
 #current {
 	line-height:35px; 
-	background-color:#ef4faa;
+	background-color:#abc7f4;
 }
 
 
