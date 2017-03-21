@@ -1,148 +1,154 @@
-header{
-	height: 200px;
-	background-image: url('https://i.stack.imgur.com/08Nj1.jpg');
-	font-family: 'Dosis', sans-serif;
-
-}
-body{
-	font-family: 'Sansita', sans-serif;
-	width: 80%;
-	margin: 0 auto;
-	background-color:#4286f4;
+header {
+    height: 200px;
+    background-image: url('https://i.stack.imgur.com/08Nj1.jpg');
+    font-family: 'Dosis', sans-serif;
 }
 
-banner{
-	margin: 0 auto;
+body {
+    font-family: 'Sansita', sans-serif;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #4286f4;
 }
 
-media-left{
-	float: left;
+banner {
+    margin: 0 auto;
 }
 
-body{
-	background-color:#afbdd3;
-}
-#waterloo{
-	background-color:#abc7f4;
+media-left {
+    float: left;
 }
 
-#physics{
-	background-color:#abc7f4;
-	line-height:35px; 
-	
+body {
+    background-color: #afbdd3;
 }
-#physicschild{
-	margin-left: 300px;
+
+#waterloo {
+    background-color: #abc7f4;
 }
+
+#physics {
+    background-color: #abc7f4;
+    line-height: 35px;
+}
+
+#physicschild {
+    margin-left: 300px;
+}
+
 #awards {
-	background-color: #abc7f4;
-	line-height:35px; 
+    background-color: #abc7f4;
+    line-height: 35px;
 }
 
 #coop {
-	background-color: #abc7f4;
-	width: 100%;
-	line-height:35px; 
+    background-color: #abc7f4;
+    width: 100%;
+    line-height: 35px;
 }
 
-#terrahinc{
-	margin-left: 330px;	
+#terrahinc {
+    margin-left: 330px;
 }
 
-#startups{
-	line-height:35px; 
-    background-color:#abc7f4;	
+#startups {
+    line-height: 35px;
+    background-color: #abc7f4;
 }
 
 #child {
-	display: inline-block;
-	margin-left: 100px;
+    display: inline-block;
+    margin-left: 100px;
 }
 
 #upcoming {
-	line-height:35px; 
-	background-color:#abc7f4;
+    line-height: 35px;
+    background-color: #abc7f4;
 }
 
 #current {
-	line-height:35px; 
-	background-color:#abc7f4;
+    line-height: 35px;
+    background-color: #abc7f4;
 }
-
 
 #centeredmenu {
-   float:left;
-   width:100%;
-   background:#fff;
-   border-bottom:4px solid #000;
-   overflow:hidden;
-   position:relative;
+    float: left;
+    width: 100%;
+    background: #fff;
+    border-bottom: 4px solid #000;
+    overflow: hidden;
+    position: relative;
 }
+
 #centeredmenu ul {
-   clear:left;
-   float:left;
-   list-style:none;
-   margin:0;
-   padding:0;
-   position:relative;
-   left:50%;
-   text-align:center;
+    clear: left;
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 50%;
+    text-align: center;
 }
+
 #centeredmenu ul li {
-   display:block;
-   float:left;
-   list-style:none;
-   margin:0;
-   padding:0;
-   position:relative;
-   right:50%;
+    display: block;
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    right: 50%;
 }
+
 #centeredmenu ul li a {
-   display:block;
-   margin:0 0 0 1px;
-   padding:3px 10px;
-   background:#ddd;
-   color:#000;
-   text-decoration:none;
-   line-height:1.3em;
+    display: block;
+    margin: 0 0 0 1px;
+    padding: 3px 10px;
+    background: #ddd;
+    color: #000;
+    text-decoration: none;
+    line-height: 1.3em;
 }
+
 #centeredmenu ul li a:hover {
-   background:#89F7F0;
-   color:#fff;
+    background: #89F7F0;
+    color: #fff;
 }
-#centeredmenu ul li a.active,
-#centeredmenu ul li a.active:hover {
-   color:#fff;
-   background:#000;
-   font-weight:bold;
+
+#centeredmenu ul li a.active, #centeredmenu ul li a.active:hover {
+    color: #fff;
+    background: #000;
+    font-weight: bold;
 }
 
 .footer-wrapper {
-	background-color: none;
-	height: 100px;
-	width: 684px;
-	margin: 0 auto;	
-	
+    background-color: none;
+    height: 100px;
+    width: 684px;
+    margin: 0 auto;
 }
 
 .footer-wrapper ul {
-	list-style-type: none;
-	margin-left: 50px;
-	background-color: none;
+    list-style-type: none;
+    margin-left: 50px;
+    background-color: none;
 }
 
 .nav ul {
-	list-style-type: none;
-	margin: 0 ;
-	padding: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
-.nav ul a{
-	font-size:17px;
+
+.nav ul a {
+    font-size: 17px;
 }
 
 footer li {
-	float: left;
+    float: left;
 }
+
 a:link, a:visited {
     background-color: #AFAFAF;
     color: white;
@@ -152,30 +158,6 @@ a:link, a:visited {
     display: inline-block;
 }
 
-
 a:hover, a:active {
     background-color: #89F7F0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

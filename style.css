@@ -1,8 +1,8 @@
-body{
-	background: #00ccff;
-	font-family: arial;
+body {
+    background: #00ccff;
+    font-family: arial;
 }
 
 .awards {
-	background-image: url= ('Images/uw.jpeg');
+    background-image: url=('Images/uw.jpeg');
 }

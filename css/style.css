@@ -1,28 +1,22 @@
-
-
-
-.header-content{
-	padding-bottom: 40px;
-	font-family: 'Dosis', sans-serif;
+.header-content {
+    padding-bottom: 40px;
+    font-family: 'Dosis', sans-serif;
 }
 
-.header-sub{
-	text-align: center;
-	font-size: 29px;
-	font-family: 'Dosis', sans-serif;
+.header-sub {
+    text-align: center;
+    font-size: 29px;
+    font-family: 'Dosis', sans-serif;
 }
 
-
-.home{
-	background-image: url('http://i.imgur.com/bWnBMeG.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-color: white;
-	min-height:100%;
-	color: black;
-	font-family: 'Dosis', sans-serif;
-	
-	
+.home {
+    background-image: url('http://i.imgur.com/bWnBMeG.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    min-height: 100%;
+    color: black;
+    font-family: 'Dosis', sans-serif;
 }
 
 a:link, a:visited {
@@ -34,125 +28,119 @@ a:link, a:visited {
     display: inline-block;
 }
 
-
 a:hover, a:active {
     background-color: #89F7F0;
 }
 
-	
-
-
 .awards {
-	background-image: url('http://i.imgur.com/bWnBMeG.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-color: white;
-	min-height:100%;
-	color: white;
-	line-height:35px; 
+    background-image: url('http://i.imgur.com/bWnBMeG.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    min-height: 100%;
+    color: white;
+    line-height: 35px;
 }
 
 .projects {
-	background-image: url('http://il9.picdn.net/shutterstock/videos/5620931/thumb/4.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-color: white;
-	min-height:100%;
-	color: white;
+    background-image: url('http://il9.picdn.net/shutterstock/videos/5620931/thumb/4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    min-height: 100%;
+    color: white;
 }
 
 .work {
-	background-image: url('http://i.imgur.com/bWnBMeG.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-color: white;
-	min-height:100%;
-	color: white;
+    background-image: url('http://i.imgur.com/bWnBMeG.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    min-height: 100%;
+    color: white;
 }
+
 h1 {
-
-	font-size: 47px;
-	font-family: 'Dosis', sans-serif;
-	text-align: center;
-	width: 684px;
-	margin: 0 auto;
-	background-color: none;
-	text-color: black;
-
-}
-.wrapper{
-	width: 700px;
-	height:200px;
-	margin: 0 auto;
-	margin-top: 100px;
-	font-size:17px;
+    font-size: 47px;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    width: 684px;
+    margin: 0 auto;
+    background-color: none;
+    text-color: black;
 }
 
+.wrapper {
+    width: 700px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 100px;
+    font-size: 17px;
+}
 
-.nav{
-	height: 50px;
-	white-space: nowrap;
-	margin: 0 auto; 
-	background-color: none;
-	text-align: center;
-	padding-left:59px;
-
+.nav {
+    height: 50px;
+    white-space: nowrap;
+    margin: 0 auto;
+    background-color: none;
+    text-align: center;
+    padding-left: 59px;
 }
 
 .aboutme {
-	width: 684px;
-	margin: 0 auto; 
-	background-color:none;
-	text-align: center;
+    width: 684px;
+    margin: 0 auto;
+    background-color: none;
+    text-align: center;
 }
 
 .aboutme p {
-	width: 684px;
-	margin: 0 auto;
-	background-color: #abc7f4;
-	padding-left: 50px;
-	color: black;
-	text-align: left;
-	font-family: 'Dosis', sans-serif;
-	font-size: 27px;
-	
+    width: 684px;
+    margin: 0 auto;
+    background-color: #abc7f4;
+    padding-left: 50px;
+    color: black;
+    text-align: left;
+    font-family: 'Dosis', sans-serif;
+    font-size: 27px;
 }
 
 .nav ul {
-	list-style-type: none;
-	margin: 0 ;
-	padding: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
-.nav ul a{
-	font-size:17px;
+
+.nav ul a {
+    font-size: 17px;
 }
 
 li {
-	float: left;
+    float: left;
 }
 
 .footer-wrapper {
-	background-color: none;
-	height: 100px;
-	width: 684px;
-	margin: 0 auto;	
-	
+    background-color: none;
+    height: 100px;
+    width: 684px;
+    margin: 0 auto;
 }
 
 .footer-wrapper ul {
-	list-style-type: none;
-	margin-left: 50px;
-	background-color: none;
+    list-style-type: none;
+    margin-left: 50px;
+    background-color: none;
+}
+
+<!----for non-indexpage-------!>;
+height: 100px;
+width: 684px;
+margin: 0 auto;
+
+}
+.footer-wrapper ul {
+    list-style-type: none;
+    margin-left: 50px;
+    background-color: none;
 }
 <!----for non-indexpage-------!>
-
-
-
-
-
-
-
-
-
-
-
