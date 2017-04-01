@@ -59,6 +59,7 @@ body {
 #child {
     display: inline-block;
     margin-left: 100px;
+    margin-top: -30px;
 }
 
 #upcoming {
@@ -69,6 +70,14 @@ body {
 #current {
     line-height: 35px;
     background-color: #abc7f4;
+}
+
+#headers {
+    font-size: 29px;
+}
+
+#titles {
+    font-size: 25px;
 }
 
 #centeredmenu {
