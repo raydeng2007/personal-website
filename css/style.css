@@ -132,10 +132,28 @@ li {
     background-color: none;
 }
 
-<!----for non-indexpage-------!>;
-height:100px;
-width:684px;
-margin:0 auto;
+<!--
+--for non-indexpage-------! >
+
+;
+height:
+
+100
+px
+
+;
+width:
+
+684
+px
+
+;
+margin:
+
+0
+auto
+
+;
 
 }
 .footer-wrapper ul {
@@ -143,19 +161,22 @@ margin:0 auto;
     margin-left: 50px;
     background-color: none;
 }
-<!----for non-indexpage-------!>
 
+<!--  --for non-indexpage-------! >
 .blink {
-        animation: blink 0.5s infinite;
+    animation: blink 0.5s infinite;
 }
 
-@keyframes
-blink{
-    to { opacity: .0; }
+@keyframes blink {
+    to {
+        opacity: .0;
+    }
 }
+
 .flex {
     display: flex;
 }
+
 .header-sub-title {
     color: #fff;
     font-family: "Courier";
