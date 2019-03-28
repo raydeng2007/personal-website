@@ -1,0 +1,165 @@
+/* ---- reset ---- */
+body {
+    margin: 0;
+    font: normal 75% Arial, Helvetica, sans-serif;
+    color: white;
+
+}
+
+
+
+html body {
+    position: relative;
+    background: #ece9e6 /* fallback for old browsers */;
+    background: -webkit-linear-gradient(to right, #fff, #ece9e6) /* Chrome 10-25, Safari 5.1-6 */;
+    background: linear-gradient(to right, #fff, #ece9e6) /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+html body .header {
+    position: absolute;
+    top: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    color: whitesmoke;
+    display: inline;
+}
+html body .menu {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+html body .menu .menu-item {
+    position: relative;
+    cursor: pointer;
+}
+html body .menu .menu-item .wee {
+    height: 2px;
+    width: 100%;
+    background-color: whitesmoke;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: 0.75s;
+}
+html body .menu .menu-item h4 {
+    margin: 0;
+    padding: 0 2rem 2.5rem;
+    color: darkgray;
+    transition: 0.75s;
+}
+html body .menu .menu-item a{
+    text-decoration: none;
+}
+html body .menu .menu-item:hover h4 {
+    color: whitesmoke;
+}
+html body .menu .current-menu-item h4 {
+    color: whitesmoke;
+}
+
+
+
+canvas {
+    display: block;
+    vertical-align: bottom;
+
+} /* ---- particles.js container ---- */
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    z-index: -10;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+@import "https://fonts.googleapis.com/css?family=Roboto";
+
+h2,
+a,
+p {
+    color: #fff;
+    font-family: Roboto;
+    text-decoration: none;
+}
+
+.blink {
+    animation: blink 0.5s infinite;
+}
+/* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange }
+}
+
+.header-sub-title {
+    color: #fff;
+    font-family: "Courier";
+    font-size: 40px;
+    padding: 0.1em;
+    display: inline;
+}
+
+.header-sub-title #word{
+    color: #fff;
+    font-family: "Courier";
+    font-size: 40px;
+    padding: 0.1em;
+    display: inline;
+}
+
+.footer-container {
+    height: 105px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #E8EEF2;
+    padding: 20px 30px 0px 0px;
+    align-items: baseline;
+    list-style-type: none;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: transparent;
+    text-align: center;
+}
+
+.footer-container i {
+    font-size: 30px;
+    margin: 10px 20px;
+    color: #E8EEF2;
+}
+
+.bg-envelope:hover {
+    color: #14A1A4;
+    transition-duration: 1s;
+}
+
+
+.bg-github-footer:hover {
+    color: #657C8A;
+    transition-duration: 1s;
+}
+
+.bg-linkedin-footer:hover {
+    color: #1085BA;
+    transition-duration: 1s;
+}
+
+.footer-container li {
+    margin: 10px auto;
+}

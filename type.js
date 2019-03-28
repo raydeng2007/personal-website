@@ -1,17 +1,10 @@
 
+
 $(document).ready(function() {
     typingEffect();
 });
 
-function cursorAnimation() {
-	$('#cursor').animate({
-	    opacity: 0
-	}, 'fast', 'swing').animate({
-	    opacity: 1
-	}, 'fast', 'swing');
-}
-
-const words = ["Raymond", "Data Scientist", "Developer"];
+const words = ["Raymond", "Data Scientist", "Developer", "Student"];
 let i = 0;
 let timer;
 
@@ -25,7 +18,7 @@ function typingEffect() {
             deletingEffect();
             return false;
         };
-        timer = setTimeout(loopTyping, 300);
+        timer = setTimeout(loopTyping, 230);
     };
     loopTyping();
 };
@@ -52,3 +45,5 @@ function deletingEffect() {
 };
 
 typingEffect();
+
+

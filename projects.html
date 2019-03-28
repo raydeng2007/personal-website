@@ -1,147 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <title>Raymond's Humble Website</title>
-    <link href="css/stye(2).css" rel="stylesheet">
-    <link rel="shortcut icon" href="favicon.png" type="image/png"/>
-    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Sansita" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <script src="script.js"></script>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel = "stylesheet"
+          type = "text/css"
+          href = "projects.css" />
 </head>
-
 <body>
-<div id="container">
-    <header>
-        <h1>PROJECTS <span id="cursor">   |</span></h1>
-    </header>
 
-    <div id="centeredmenu">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="pastworkexperience.html">Past Work Experience</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="https://raybballblog.netlify.com/">Blog</a></li>
-        </ul>
-    </div>
+
+<nav id="main-menu">
+    <ul class="nav-bar">
+        <li class="nav-button-home"><a href="index.html">Home</a></li>
+        <li class="nav-button-services"><a href="work.html">Work Experience</a></li>
+        <li class="nav-button-products"><a href="projects.html">Projects</a></li>
+        <li class="nav-button-products"><a href="https://raybballblog.netlify.com/">Blog</a></li>
+    </ul>
+</nav>
+
+<ul class="cards">
+    <li class="cards__item">
+        <div class="card">
+            <div class="card__image card__image--blog"></div>
+            <div class="card__content">
+                <div class="card__title">Flex</div>
+                <p class="card__text">This is the shorthand for flex-grow, flex-shrink and flex-basis combined. The second and third parameters (flex-shrink and flex-basis) are optional. Default is 0 1 auto. </p>
+                <button class="btn btn--block card__btn">Button</button>
+            </div>
+        </div>
+    </li>
+    <li class="cards__item">
+        <div class="card">
+            <div class="card__image card__image--extension"></div>
+            <div class="card__content">
+                <div class="card__title">Flex Grow</div>
+                <p class="card__text">This defines the ability for a flex item to grow if necessary. It accepts a unitless value that serves as a proportion. It dictates what amount of the available space inside the flex container the item should take up.This defines the ability for a flex item to grow if necessary. It accepts a unitless value that serves as a proportion. It dictates what amount of the available space inside the flex container the item should take up.This defines the ability for a flex item to grow if necessary. It accepts a unitless value that serves as a proportion. It dictates what amount of the available space inside the flex container the item should take up.This defines the ability for a flex item to grow if necessary. It accepts a unitless value that serves as a proportion. It dictates what amount of the available space inside the flex container the item should take up.This defines the ability for a flex item to grow if necessary. It accepts a unitless value that serves as a proportion. It dictates what amount of the available space inside the flex container the item should take up.This defines the ability for a flex item to grow if necessary. It accepts a unitless value that serves as a proportion. It dictates what amount of the available space inside the flex container the item should take up.This defines the ability for a flex item to grow if necessary. It accepts a unitless value that serves as a proportion. It dictates what amount of the available space inside the flex container the item should take up.</p>
+                <button class="btn btn--block card__btn">Button</button>
+            </div>
+        </div>
+    </li>
+    <li class="cards__item">
+        <div class="card">
+            <div class="card__image card__image--game"></div>
+            <div class="card__content">
+                <div class="card__title">Flex Shrink</div>
+                <p class="card__text">This defines the ability for a flex item to shrink if necessary. Negative numbers are invalid.This defines the ability for a flex item to shrink if necessary. Negative numbers are invalid.This defines the ability for a flex item to shrink if necessary. Negative numbers are invalid.This defines the ability for a flex item to shrink if necessary. Negative numbers are invalid.This defines the ability for a flex item to shrink if necessary. Negative numbers are invalid.This defines the ability for a flex item to shrink if necessary. Negative numbers are invalid.This defines the ability for a flex item to shrink if necessary. Negative numbers are invalid.This defines the ability for a flex item to shrink if necessary. Negative numbers are invalid.This defines the ability for a flex item to shrink if necessary. Negative numbers are invalid.This defines the ability for a flex item to shrink if necessary. Negative numbers are invalid.</p>
+                <button class="btn btn--block card__btn">Button</button>
+            </div>
+        </div>
+    </li>
+    <li class="cards__item">
+        <div class="card">
+            <div class="card__image card__image--tweet"></div>
+            <div class="card__content">
+                <div class="card__title">Tweet Generator (WIP) </div>
+                <p class="card__text">A machine learning project that aims to be able to learn and generate new tweets based on a user's tweet history. Using LSTM models and
+                    RNNs to train the model and use adam and gradient descent in back propagation to reinforce the training. It's been training on a google colab vitrual
+                machine with GPUs. The jupyter notebook is available on my github.</p>
+                <button class="btn btn--block card__btn">check this out</button>
+            </div>
+        </div>
+    </li>
+</ul>
+
+<div class="footer-container">
+    <ul class= "list-inline">
+        <li><a href="https://github.com/raydeng2007"><i class="fa fa-github fa-fw bg-github-footer" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/raymond-deng-1196a1126/"><i class="fa fa-linkedin fa-fw bg-linkedin-footer" aria-hidden="true"></i></a></li>
+        <li><a href="https://mail.google.com/mail/?view=cm&fs=1&to=r6deng@edu.uwaterloo.ca"><i class="fa fa-envelope-o fa-fw bg-envelope" aria-hidden="true"></i></a></li>
+    </ul>
 </div>
-<br/>
-<br/>
-<br/>
-<br/>
-
-<div id="current">
-    <h2 id="headers">CURRENT</h2>
-    <br/>
-
-    <div class="projects">
-        <h2 style="display: inline-block"> Conway's Game of Life (Feb/2018)</h2>
-        <img src="http://njohns01home.webfactional.com/wp-content/uploads/2009/05/canada_goose.gif" style="float:left;padding-top: 70px;padding-right: 90px"
-             height="220" width="220">
-
-        <div class="project_text" style="display: inline-block;">
-
-
-            <h2>
-                • Working React Web application for demonstration of the famous <br/>
-                cellular automata Conway's game of life. <br/>
-                • Implemented algorithum to calculate the next state for each generation.<br/>
-                • User able to implement different patterns.<br/>
-                • Users able to control speed and size of generations. <br/>
-                • Check out the official site <a href=http://ray-game-of-life.surge.sh/>here</a>
-            </h2>
-            <br/>
-            <br/>
-
-        </div><h2 style="display: inline-block"> MovieList (March/2018)</h2>
-        <img src="http://s3.amazonaws.com/vnn-aws-sites/4712/files/2014/09/physics.png" style="float:left;padding-top: 70px;padding-right: 90px"
-             height="220" width="220">
-
-        <div class="project_text" style="display: inline-block;">
-
-
-            <h2>
-                • Working React Web application for picking top movies from each category <br/>
-                that you wanted to watch. <br/>
-                • Powered by the Movie Database API <br/>
-                • Depoyed and launched on Surge.sh <br/>
-                • Check it out <a href=http://moviewatchlist.surge.sh/>here</a>
-            </h2>
-            <br/>
-            <br/>
-
-        </div>
-        <h2 style="display: inline-block"> Twitter Bot (Feb/2018)</h2>
-        <img src="https://wab.org/wp-content/uploads/2016/08/Twitter-Logo-300x300.png" style="float:left;padding-top: 70px;padding-right: 90px"
-             height="220" width="220">
-
-        <div class="project_text" style="display: inline-block;">
-
-
-            <h2>
-                • Live twitter bot that can respond to user tweets <br/>
-                with a GIF based on what the user tweeted. <br/>
-                • Responds to user follows. <br/>
-                • Built using Node.js, deployed on an Amazon EC2 instance. <br/>
-                • Powered by Twitter's API. Currently implementing more new features. <br/>
-                • Available on <a href=https://twitter.com/tweetygifbot>Twitter</a><br/>
-
-            </h2>
-            <br/>
-            <br/>
-
-        </div>
-
-        <h2 style="display: inline-block"> Weatherloo (Jan/2017)</h2>
-        <img src="https://raw.githubusercontent.com/raydeng2007/raydeng2007.github.io/master/weather.png" style="float:left;padding-top: 70px;padding-right: 90px"
-             height="220" width="220">
-
-        <div class="project_text" style="display: inline-block;">
-
-
-            <h2>
-                • Fully functional weather app that allows users to check current weather<br/>
-                and future broadcast. Also allows users to check current location <br/>
-                to change forecasting information. (Jan/2017- Present) <br/>
-                • Built using Andorid Stuido powered by OpenWeatherMap API<br/>
-                • Available on my <a href=https://github.com/raydeng2007>GitHub</a>(Feel free to check it out)<br/>
-
-            </h2>
-            <br/>
-            <br/>
-
-        </div>
-    </div>
-
-
-
-
-</div>
-<br/>
-<br/>
-
-
-<footer>
-    <div class="footer-wrapper">
-        <ul class="icon">
-            <li><a href=https://github.com/raydeng2007><img
-                    src="https://raw.githubusercontent.com/raydeng2007/raydeng2007.github.io/master/github.png"
-                    width="85" height="90"/></a></li>
-            <li><a href=https://www.facebook.com/raymond.deng.33><img
-                    src="https://raw.githubusercontent.com/raydeng2007/raydeng2007.github.io/master/facebook.png"
-                    width="85" height="90"/></a></li>
-            <li><a href=https://www.linkedin.com/in/raymond-deng-1196a1126/><img
-                    src="https://raw.githubusercontent.com/raydeng2007/raydeng2007.github.io/master/link.png" width="85"
-                    height="90"/></a></li>
-            <li><a href=https://mail.google.com/mail/?view=cm&fs=1&to=r6deng@edu.uwaterloo.ca><img
-                    src="https://raw.githubusercontent.com/raydeng2007/raydeng2007.github.io/master/email.png"
-                    width="85" height="90"/></a></li>
-        </ul>
-    </div>
-</footer>
 
 
 </body>
