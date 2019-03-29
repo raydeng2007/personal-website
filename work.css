@@ -14,6 +14,107 @@ body{
     text-shadow: 3px 3px 3px #ccc;
 }
 
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:400,700");
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    font-family: Ubuntu, sans-serif;
+    margin: 2rem;
+    background-color: rgb(23, 23, 25);
+}
+
+.flex {
+    margin: 0;
+    display: flex;
+    border: 5px solid #333;
+    background-color: #fff;
+    margin-bottom: 2rem;
+}
+
+/* optional: alternately flips module layout
+.flex:nth-child(odd) {
+  flex-direction: row-reverse;
+}
+*/
+.flex div:first-child {
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+}
+
+.flex:first-of-type div:first-child {
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/aloe-polyphylla-2x.jpg");
+}
+
+.flex:last-of-type div:first-child {
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/wire-worm.jpg");
+}
+
+.flex div:last-child {
+    margin: 2rem;
+    flex: 2;
+}
+
+.flex h3 {
+    font-size: 1.5rem;
+    margin-top: 0;
+    font-weight: 400;
+}
+
+.flex p {
+    font-size: 1rem;
+    line-height: 1.4;
+    font-weight: 400;
+}
+
+.flex p:last-of-type {
+    margin-bottom: 0;
+}
+
+.column {
+    width: 67%;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+@media all and (max-width: 600px) {
+    body {
+        margin: 0;
+    }
+}
+@media all and (max-width: 450px) {
+    h2 {
+        margin: 1rem;
+    }
+
+    .flex {
+        border: 0;
+        margin: 0;
+        border-bottom: 2px solid #333;
+    }
+
+    .flex div:last-child {
+        margin: 1rem;
+    }
+
+    .column {
+        width: 100%;
+    }
+}
+@media all and (max-width: 400px) {
+    .flex {
+        flex-direction: column;
+    }
+
+    .flex div:first-child {
+        min-height: 200px;
+    }
+}
+
+
 .footer-container {
     height: 105px;
     display: flex;

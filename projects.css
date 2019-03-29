@@ -18,6 +18,17 @@ body{
 *::after {
     box-sizing: border-box;
 }
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+header h1{
+    font-family: Roboto;
+    /*color: whitesmoke;*/
+    /*text-shadow: 3px 3px 3px #ccc;*/
+}
 html {
     background-color: #f0f0f0;
 }
@@ -112,22 +123,22 @@ img {
         padding-top: 66.6%;
     }
 }
-.card__image--flowers {
-    background-image: url(https://unsplash.it/800/600?image=82);
+.card__image--tweet {
+    background-image: url('./tweet.png');
 }
-.card__image--river {
-    background-image: url(https://unsplash.it/800/600?image=11);
+.card__image--game {
+    background-image: url('./game.png');
 }
-.card__image--record {
-    background-image: url(https://unsplash.it/800/600?image=39);
+.card__image--extension {
+    background-image: url('./chrome.png');
 }
-.card__image--fence {
-    background-image: url(https://unsplash.it/800/600?image=59);
+.card__image--blog {
+    background-image: url('./blog.png');
 }
 .card__title {
-    color: #696969;
-    font-size: 1.25rem;
-    font-weight: 300;
+    color: black;
+    font-size: 2rem;
+    font-weight: 400;
     letter-spacing: 2px;
     text-transform: uppercase;
 }
