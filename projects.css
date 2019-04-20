@@ -137,6 +137,9 @@ img {
 .card__image--blog {
     background-image: url('./blog.png');
 }
+.card__image--movie{
+    background-image: url('./movie.png');
+}
 .card__title {
     color: black;
     font-size: 2rem;
