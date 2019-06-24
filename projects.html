@@ -31,6 +31,21 @@
 <ul class="cards">
     <li class="cards__item">
         <div class="card">
+            <div class="card__image card__image--tweet"></div>
+            <div class="card__content">
+                <div class="card__title">Tweet Like Trump </div>
+                <p class="card__text">A flask application that has an LSTM model trained for 14 hours on Trump's
+                    Twitter data which allows user input and predicts how trump would complete the sentence.
+                    The model has two hidden LSTM layers that use cross-entropy loss function and optimized with
+                    ADAM algorithm with a final loss value of 1.42. The application also uses web sockets to fetch
+                    live predictions asynchronously to drastically increase prediction speed. Running on Gunicorn
+                    server on Heroku.</p>
+                <button class="btn btn--block card__btn"><a href="https://tweet-generation.herokuapp.com/">Link</a></button>
+            </div>
+        </div>
+    </li>
+    <li class="cards__item">
+        <div class="card">
             <div class="card__image card__image--blog"></div>
             <div class="card__content">
                 <div class="card__title">ML/Sports analytics blog</div>
@@ -62,18 +77,6 @@
                     will be able to change generation speed, grid size as well as generate pre-built patterns.
                     Live official site is deployed on surge.sh.</p>
                 <button class="btn btn--block card__btn"><a href="http://ray-game-of-life.surge.sh/">Link</a></button>
-            </div>
-        </div>
-    </li>
-    <li class="cards__item">
-        <div class="card">
-            <div class="card__image card__image--tweet"></div>
-            <div class="card__content">
-                <div class="card__title">Tweet Generator (WIP) </div>
-                <p class="card__text">A machine learning project that aims to be able to learn and generate new tweets based on a user's tweet history. Using LSTM models and
-                    RNNs to train the model and use adam and gradient descent in back propagation to reinforce the training. It's been training on a google colab vitrual
-                    machine with GPUs. The jupyter notebook is available on my github.</p>
-                <button class="btn btn--block card__btn"><a href="https://github.com/raydeng2007">Link</a></button>
             </div>
         </div>
     </li>

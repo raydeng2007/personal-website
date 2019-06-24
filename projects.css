@@ -126,7 +126,7 @@ img {
     }
 }
 .card__image--tweet {
-    background-image: url('./tweet.png');
+    background-image: url('./trump_img.png');
 }
 .card__image--game {
     background-image: url('./game.png');
