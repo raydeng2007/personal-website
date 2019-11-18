@@ -63,6 +63,7 @@ img {
     border-radius: 25px;
     position: center;
     vertical-align: center;
+    margin-left: 5px;
 }
 
 
@@ -81,6 +82,13 @@ img {
     font-size: 1.46rem;
     line-height: 1.4;
     font-weight: 400;
+}
+
+.flex h3 {
+    font-size: 1.66rem;
+    line-height: 1.4;
+    font-weight: 400;
+    font-family: 'Bree Serif', serif;
 }
 
 .flex p:last-of-type {
